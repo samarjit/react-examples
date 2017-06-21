@@ -25,6 +25,8 @@ const userReducer = function(state ={}, action) {
 		break;
 
 		default:
+
+		 console.log("No matched userReducer", action.type);
 		break;
 	}
 	return state;
@@ -37,7 +39,10 @@ const tweetsReducer = function(state=[], action){
 			break;
 		case "TWEETS_REMOVED": state.push(action.payload);
 			break;
-		default: break;
+
+		default: console.log("No matched tweetReducer", action.type);
+		break;
+
 	}
 	return state;
 }

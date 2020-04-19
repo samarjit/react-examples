@@ -22,3 +22,5 @@ let reducer = function(state = {count: 1}, action){
 store.dispatch({type: "INC",payload: 1})
 store.dispatch({type: "INC",payload: 2})
 ```
+
+Live example: https://stackblitz.com/edit/react-ygkgj7

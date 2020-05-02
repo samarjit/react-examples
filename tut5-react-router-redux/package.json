@@ -4,7 +4,7 @@
   "homepage": "https://stackblitz.com/edit/react-e2nmjr",
   "dependencies": {
     "react": "16.1.1",
-    "react-dom": "16.1.1",
+    "react-dom": "16.13.0",
     "react-scripts": "1.0.10",
     "history": "4.7.2",
     "react-router": "4.2.0",

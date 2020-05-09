@@ -1,4 +1,4 @@
-# Basic Refux
+# Basic Redux
 
 The basics of redux is simple store where you can store some data, listen for data changes. 
 
